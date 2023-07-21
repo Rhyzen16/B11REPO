@@ -1,0 +1,15 @@
+/* ... Your existing CSS rules ... */
+
+/* Mobile Menu Toggle */
+@media only screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
